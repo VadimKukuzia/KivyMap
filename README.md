@@ -40,3 +40,8 @@ Impossible while using plyer.gps, so if you want to see the map - comment gps.st
         # gps.start()
     ...
 ```
+## License
+
+
+This software is released under the terms of the MIT License.
+Please refer to the [LICENSE](LICENSE) file.
