@@ -1,4 +1,4 @@
-# KivyMapview for Android
+# KivyMapView for Android
 
 The goal of this app is to use Python and Python packages to work with the map on Android.
 You can use this as a starting point if you want to do something similar or improve the app.
