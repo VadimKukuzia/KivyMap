@@ -1,0 +1,15 @@
+certifi==2020.12.5
+chardet==4.0.0
+Cython==0.29.23
+docutils==0.17.1
+idna==2.10
+Kivy==2.0.0
+Kivy-Garden==0.1.4
+kivy-garden.mapview==1.0.5
+kivymd==0.104.1
+mapview==1.0.5
+Pillow==8.2.0
+plyer==2.0.0
+Pygments==2.9.0
+requests==2.25.1
+urllib3==1.26.4

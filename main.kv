@@ -1,0 +1,40 @@
+#:import MapView kivy_garden.mapview
+
+ScreenManager:
+    MainScreen:
+        id: main_screen
+
+<MainScreen>:
+    name: "MainScreen"
+    MDBoxLayout:
+        orientation: "vertical"
+
+        MapView:
+            id: map_id
+            zoom: 2
+
+    MDBoxLayout:
+        adaptive_height: True
+        orientation: "vertical"
+
+        MDBoxLayout:
+            padding: "10dp"
+            adaptive_size: True
+            spacing: "10dp"
+            orientation: "vertical"
+            pos_hint: {"left": 1}
+
+            MDBoxLayout:
+                adaptive_width: True
+                size_hint_y: None
+                height: "56dp"
+                spacing: "10dp"
+                pos_hint: {"center_x": .5}
+
+                MDFloatingActionButton:
+                    icon: "crosshairs-gps"
+                    opposite_colors: True
+                    elevation: 8
+                    md_bg_color: 1, 1, 1, 1
+                    on_press:
+                        app.get_location()
