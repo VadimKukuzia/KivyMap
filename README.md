@@ -20,7 +20,7 @@ You can use this as a starting point if you want to do something similar or impr
 Described in [requirements.txt](requirements.txt)
 
 # Building with [Buildozer](https://github.com/kivy/buildozer) for Android
-Just build:
+Build only:
 ```
     buildozer android debug 
 ```
